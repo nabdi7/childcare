@@ -1,0 +1,28 @@
+#contact {
+	p, h5, h4, h3 {
+		color: #ddd;
+	}
+
+	background: #414141;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+
+	i {
+		font-size: 26px;
+		color: white;
+		padding-left: 10px;
+		padding-right: 10px;	
+	}
+
+	a {
+		color: $pink;
+
+		&:hover,
+		&:focus {
+		  color: #fff;
+		  text-decoration: none;
+		  outline: 0;
+		}
+	}
+}
